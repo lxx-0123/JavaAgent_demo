@@ -1,0 +1,22 @@
+{
+	"":[
+		{
+			"Web api路径":"",
+			"Http 方法":"get",
+			"返回值":{
+				"200":{
+					"description":"ok",
+					"content":{
+						"*/*":{
+							"schema":{
+								"type":"",
+								"$ref":"#/components/schemas/Map"
+							}
+						}
+					}
+				}
+			},
+			"请求参数":"[{\"schema\":{\"type\":\"string\"},\"in\":\"Cookie\",\"name\":\"cmd\",\"required\":true}] org.javaweb.vuln.controller.HessianController"
+		}
+	]
+}
